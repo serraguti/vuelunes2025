@@ -11,6 +11,10 @@ app.config.globalProperties.$filters = {
         }else{
             return "<span style='color:red'>" + num + "</span>";
         }
+    }, getResultado(numero, multi) {
+        return numero * multi;
+    }, getOperacion(numero, multi) {
+        return numero + " * " + multi;
     }
 }
 

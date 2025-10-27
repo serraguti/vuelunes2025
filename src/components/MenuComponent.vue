@@ -4,8 +4,11 @@
             <router-link to="/">Home</router-link> | 
         </li>
         <li>
-            <router-link to="/collatz">Collatz</router-link>
+            <router-link to="/collatz">Collatz</router-link> | 
         </li>
+        <li>
+            <router-link to="/tabla">Tabla multiplicar</router-link>
+        </li>        
     </ul>
 </template>
 
